@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>486</width>
-    <height>662</height>
+    <width>541</width>
+    <height>708</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-color:aqua;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
@@ -23,9 +23,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>80</y>
-      <width>161</width>
+      <x>110</x>
+      <y>90</y>
+      <width>171</width>
       <height>61</height>
      </rect>
     </property>
@@ -39,7 +39,7 @@
      <string notr="true">color:coral;</string>
     </property>
     <property name="text">
-     <string>SignUp</string>
+     <string>Sign Up</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
@@ -96,7 +96,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color:white;
+     <string notr="true">color:black;
 background-color:white;</string>
     </property>
    </widget>
@@ -110,14 +110,14 @@ background-color:white;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color:white;
+     <string notr="true">color:black;
 background-color:white;</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnSignUp">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>160</x>
       <y>390</y>
       <width>93</width>
       <height>28</height>
@@ -140,8 +140,8 @@ background-color:Teal;</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>440</y>
+      <x>140</x>
+      <y>430</y>
       <width>131</width>
       <height>16</height>
      </rect>
@@ -153,23 +153,7 @@ background-color:Teal;</string>
      <string>Don't have an account</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>440</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:coral;</string>
-    </property>
-    <property name="text">
-     <string>Login</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="confirmPassword">
+   <widget class="QLineEdit" name="txtconfirmPassword">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -179,7 +163,7 @@ background-color:Teal;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color:white;
+     <string notr="true">color:black;
 background-color:white;</string>
     </property>
    </widget>
@@ -206,13 +190,151 @@ font: 12pt &quot;Arial&quot;;</string>
      <string>Confirm password</string>
     </property>
    </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>0</y>
+      <width>201</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:blue;
+border-radius:20px;</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>201</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Pictures/Saved Pictures/Screenshot 2024-09-27 231231.png</normaloff>../../../Pictures/Saved Pictures/Screenshot 2024-09-27 231231.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>180</y>
+       <width>201</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Pictures/Saved Pictures/Four-leaf_clover_idiom.jpg</normaloff>../../../Pictures/Saved Pictures/Four-leaf_clover_idiom.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>350</y>
+       <width>201</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Pictures/Saved Pictures/Oreki_Houtarou1.jpg</normaloff>../../../Pictures/Saved Pictures/Oreki_Houtarou1.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>510</y>
+       <width>201</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Pictures/Saved Pictures/Oreki_Houtarou2.jpg</normaloff>../../../Pictures/Saved Pictures/Oreki_Houtarou2.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>200</width>
+       <height>200</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btnLogin">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>460</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:coral;
+background-color:Teal;</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>486</width>
+     <width>541</width>
      <height>26</height>
     </rect>
    </property>
