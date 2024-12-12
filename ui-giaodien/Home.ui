@@ -237,118 +237,10 @@ font: 40pt &quot;Arial&quot;;</string>
        <enum>Qt::PlainText</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="btngold_3">
+     <widget class="QPushButton" name="btnChill">
       <property name="geometry">
        <rect>
         <x>50</x>
-        <y>230</y>
-        <width>93</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/z5963777620362_1cedc1575d1c3715090f5b37a00ffe26.jpg</normaloff>../../../Pictures/Saved Pictures/z5963777620362_1cedc1575d1c3715090f5b37a00ffe26.jpg</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btndiamond_3">
-      <property name="geometry">
-       <rect>
-        <x>160</x>
-        <y>230</y>
-        <width>93</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/z5963650387289_3ce32cfffc5ae409ed6358ef90b61909.jpg</normaloff>../../../Pictures/Saved Pictures/z5963650387289_3ce32cfffc5ae409ed6358ef90b61909.jpg</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btnruby_3">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>230</y>
-        <width>93</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/z5963671587989_9a055e69c9ce33bd8a6f0b4f7774f4c9.jpg</normaloff>../../../Pictures/Saved Pictures/z5963671587989_9a055e69c9ce33bd8a6f0b4f7774f4c9.jpg</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btnsapphire_3">
-      <property name="geometry">
-       <rect>
-        <x>380</x>
-        <y>230</y>
-        <width>93</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/ab6761610000e5eb87abe41e26c5b7664fb86377.png</normaloff>../../../Pictures/Saved Pictures/ab6761610000e5eb87abe41e26c5b7664fb86377.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btnemerald_3">
-      <property name="geometry">
-       <rect>
-        <x>490</x>
         <y>230</y>
         <width>93</width>
         <height>81</height>
@@ -2028,6 +1920,169 @@ border-radius:15px;</string>
        <string>Birthday: 02/09/2009 </string>
       </property>
      </widget>
+    </widget>
+    <widget class="QWidget" name="Chill">
+     <widget class="QPushButton" name="btnplaypickleball">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>93</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:pink;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../Pictures/Saved Pictures/pickleball.png</normaloff>../../../Pictures/Saved Pictures/pickleball.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Home_7">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>70</y>
+        <width>581</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:grey;
+font: 40pt &quot;Arial&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnplayJ97">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>80</y>
+        <width>93</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:pink;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../Pictures/Saved Pictures/a3d9ca4ec3d376ed9f2fa0ca4ece9c17.1000x1000x1.jpg</normaloff>../../../Pictures/Saved Pictures/a3d9ca4ec3d376ed9f2fa0ca4ece9c17.1000x1000x1.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnplaycomsuonbunmam">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>80</y>
+        <width>93</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:pink;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../Pictures/Saved Pictures/28a31f8a6e853c2eeef0be084d724aa0.jpg</normaloff>../../../Pictures/Saved Pictures/28a31f8a6e853c2eeef0be084d724aa0.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnplayJ97_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>80</y>
+        <width>93</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:pink;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../Pictures/Saved Pictures/maxresdefault.jpg</normaloff>../../../Pictures/Saved Pictures/maxresdefault.jpg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnplayJ97_4">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>80</y>
+        <width>93</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:pink;
+border-radius:15px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../Pictures/Saved Pictures/ab67616d0000b273ed310609c381dc45363fb26d.png</normaloff>../../../Pictures/Saved Pictures/ab67616d0000b273ed310609c381dc45363fb26d.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>70</width>
+        <height>70</height>
+       </size>
+      </property>
+     </widget>
+     <zorder>Home_7</zorder>
+     <zorder>btnplaypickleball</zorder>
+     <zorder>btnplayJ97</zorder>
+     <zorder>btnplaycomsuonbunmam</zorder>
+     <zorder>btnplayJ97_2</zorder>
+     <zorder>btnplayJ97_4</zorder>
     </widget>
    </widget>
    <widget class="QWidget" name="widget" native="true">

@@ -21,6 +21,7 @@ class HomeDashBoard(QMainWindow):
         self.btnsapphire_2.clicked.connect(self.showSapphire)
         self.btnemerald.clicked.connect(self.showEmerald)
         self.btnemerald_2.clicked.connect(self.showEmerald)
+        self.btnChill.clicked.connect(self.showChill)
         x = None
 
         #self.btnplaywdta.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://youtu.be/3AtDnEC4zak?si=I00R3yc3Q7u1x94l"))
@@ -28,14 +29,19 @@ class HomeDashBoard(QMainWindow):
         #self.btnplayoca.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://youtu.be/BxuY9FET9Y4?si=SPiu6qgm1K8s20UB"))
         #self.btnplayhowlong.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://youtu.be/CwfoyVa980U?si=OW8eY2QwIGs5GyNS"))
         
-        self.btnplaygold.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://www.pnj.com.vn/site/san-pham/nhan-vang-24k-pnj-0000y001957.html"))
-        self.btnplaydiamond.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://www.pnj.com.vn/site/san-pham/nhan-kim-cuong-vang-trang-18k-pnj-ddddw007786.html"))
-        self.btnplayruby.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://www.pnj.com.vn/site/san-pham/nhan-vang-trang-14k-dinh-da-ruby-pnj-rbddw000195.html"))
-        self.btnplaysapphire.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://www.pnj.com.vn/site/san-pham/nhan-vang-trang-14k-dinh-da-saphire-pnj-spddw000438.html"))
-        self.btnplayemerald.clicked.connect(lambda _, item=x: self.playMusic(LinkMusic = "https://www.pnj.com.vn/site/san-pham/nhan-vang-trang-14k-dinh-da-emerald-disneypnj-aladin-erddw000222.html"))
+        self.btnplaygold.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://www.pnj.com.vn/site/san-pham/nhan-vang-24k-pnj-0000y001957.html"))
+        self.btnplaydiamond.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://www.pnj.com.vn/site/san-pham/nhan-kim-cuong-vang-trang-18k-pnj-ddddw007786.html"))
+        self.btnplayruby.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://www.pnj.com.vn/site/san-pham/nhan-vang-trang-14k-dinh-da-ruby-pnj-rbddw000195.html"))
+        self.btnplaysapphire.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://www.pnj.com.vn/site/san-pham/nhan-vang-trang-14k-dinh-da-saphire-pnj-spddw000438.html"))
+        self.btnplayemerald.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://www.pnj.com.vn/site/san-pham/nhan-vang-trang-14k-dinh-da-emerald-disneypnj-aladin-erddw000222.html"))
+        self.btnplaypickleball.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://www.youtube.com/watch?v=IzSYlr3VI1A"))
+        self.btnplayJ97.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://youtu.be/Lf8df8FCJhk?si=7ToxdFbNImPNa9bB"))
+        self.btnplayJ97_2.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://youtu.be/yh5bKLle5lE?si=qFzY9_albRLT6S1n"))
+        self.btnplaycomsuonbunmam.clicked.connect(lambda _, item=x: self.playMusic(LinkShop = "https://youtu.be/L4MLcHalj1M?si=t0ReUZlMr63LLbzj"))
 
-    def playMusic(self, LinkMusic):
-        webbrowser.open(LinkMusic)
+    def playMusic(self, LinkShop):
+        webbrowser.open(LinkShop)
+
     
 
     def showHome(self):
@@ -52,6 +58,9 @@ class HomeDashBoard(QMainWindow):
         self.stackedMenu.setCurrentIndex(5)
     def showProfile(self):
         self.stackedMenu.setCurrentIndex(6)
+    def showChill(self):
+        self.stackedMenu.setCurrentIndex(7)
+
 
 
 #Lớp đăng kí
@@ -136,4 +145,3 @@ if __name__ == "__main__":
     su = SignUp()
     lg.show()
     sys.exit(app.exec())
-    
