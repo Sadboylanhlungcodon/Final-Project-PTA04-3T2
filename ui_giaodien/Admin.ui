@@ -45,240 +45,101 @@
      <number>0</number>
     </property>
     <widget class="QWidget" name="menu">
-     <widget class="QLabel" name="Home">
+     <widget class="QTableWidget" name="tableWidget">
       <property name="geometry">
        <rect>
-        <x>30</x>
-        <y>70</y>
-        <width>581</width>
-        <height>101</height>
+        <x>0</x>
+        <y>100</y>
+        <width>651</width>
+        <height>171</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:grey;
-font: 40pt &quot;Arial&quot;;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textFormat">
-       <enum>Qt::PlainText</enum>
-      </property>
+      <column>
+       <property name="text">
+        <string>Tên bài hát</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Tên nghệ sĩ</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Thời lượng</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Lượt like</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Lượt like</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Hình nền</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Liên kết</string>
+       </property>
+      </column>
      </widget>
-     <widget class="QPushButton" name="btngold_2">
+     <widget class="QPushButton" name="btnAdd">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>80</y>
+        <x>120</x>
+        <y>360</y>
         <width>93</width>
-        <height>81</height>
+        <height>28</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
       <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/dayvlys-83690cda-8f4e-4ab7-82bb-67f7161ffd02.png</normaloff>../../../Pictures/Saved Pictures/dayvlys-83690cda-8f4e-4ab7-82bb-67f7161ffd02.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
+       <string>Add</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEdit_2">
+     <widget class="QPushButton" name="btnEdit">
       <property name="geometry">
        <rect>
-        <x>30</x>
-        <y>40</y>
-        <width>81</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:grey;
-color:white;</string>
-      </property>
-      <property name="text">
-       <string>TOP STONE</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btndiamond_2">
-      <property name="geometry">
-       <rect>
-        <x>160</x>
-        <y>80</y>
+        <x>260</x>
+        <y>360</y>
         <width>93</width>
-        <height>81</height>
+        <height>28</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
       <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/pngimg.com - diamond_PNG6675.png</normaloff>../../../Pictures/Saved Pictures/pngimg.com - diamond_PNG6675.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
+       <string>Edit</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnemerald_2">
+     <widget class="QPushButton" name="btnDelete">
       <property name="geometry">
        <rect>
-        <x>490</x>
-        <y>80</y>
+        <x>400</x>
+        <y>360</y>
         <width>93</width>
-        <height>81</height>
+        <height>28</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
       <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/emerald_400.png</normaloff>../../../Pictures/Saved Pictures/emerald_400.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
+       <string>Delete</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnsapphire_2">
+     <widget class="QPushButton" name="btnSave">
       <property name="geometry">
        <rect>
-        <x>380</x>
-        <y>80</y>
+        <x>400</x>
+        <y>410</y>
         <width>93</width>
-        <height>81</height>
+        <height>28</height>
        </rect>
       </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
       <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/pngtree-realistic-bright-shiny-sapphire-isolated-png-image_11530158.png</normaloff>../../../Pictures/Saved Pictures/pngtree-realistic-bright-shiny-sapphire-isolated-png-image_11530158.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btnruby_2">
-      <property name="geometry">
-       <rect>
-        <x>270</x>
-        <y>80</y>
-        <width>93</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/pngimg.com - ruby_PNG4.png</normaloff>../../../Pictures/Saved Pictures/pngimg.com - ruby_PNG4.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QLabel" name="Home_6">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>220</y>
-        <width>581</width>
-        <height>101</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:grey;
-font: 40pt &quot;Arial&quot;;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="textFormat">
-       <enum>Qt::PlainText</enum>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="btnChill">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>230</y>
-        <width>93</width>
-        <height>81</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:pink;
-border-radius:15px;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../../Pictures/Saved Pictures/ab67616d0000b273ed310609c381dc45363fb26d.png</normaloff>../../../Pictures/Saved Pictures/ab67616d0000b273ed310609c381dc45363fb26d.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>70</width>
-        <height>70</height>
-       </size>
-      </property>
-     </widget>
-     <widget class="QLineEdit" name="lineEdit_7">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>190</y>
-        <width>81</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:grey;
-color:white;</string>
-      </property>
-      <property name="text">
-       <string>TOP MUSIC</string>
+       <string>Save</string>
       </property>
      </widget>
     </widget>
@@ -2095,40 +1956,13 @@ border-radius:15px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:red</string>
+     <string notr="true">background-color:red;</string>
     </property>
-    <widget class="QPushButton" name="btnHome">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>91</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color:white;
-border-radius:15px;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../../../Downloads/home-button.png</normaloff>../../../Downloads/home-button.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>60</width>
-       <height>60</height>
-      </size>
-     </property>
-    </widget>
     <widget class="QPushButton" name="pushButton_2">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>70</y>
+       <y>260</y>
        <width>93</width>
        <height>71</height>
       </rect>
@@ -2151,146 +1985,38 @@ border-radius:15px;</string>
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="btndiamond">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>220</y>
-       <width>93</width>
-       <height>81</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color:pink;
-border-radius:15px;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../../../Pictures/Saved Pictures/pngimg.com - diamond_PNG6675.png</normaloff>../../../Pictures/Saved Pictures/pngimg.com - diamond_PNG6675.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>70</width>
-       <height>70</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="btngold">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>140</y>
-       <width>93</width>
-       <height>81</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color:pink;
-border-radius:15px;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../../../Pictures/Saved Pictures/dayvlys-83690cda-8f4e-4ab7-82bb-67f7161ffd02.png</normaloff>../../../Pictures/Saved Pictures/dayvlys-83690cda-8f4e-4ab7-82bb-67f7161ffd02.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>70</width>
-       <height>70</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="btnruby">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>300</y>
-       <width>93</width>
-       <height>81</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color:pink;
-border-radius:15px;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../../../Pictures/Saved Pictures/pngimg.com - ruby_PNG4.png</normaloff>../../../Pictures/Saved Pictures/pngimg.com - ruby_PNG4.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>70</width>
-       <height>70</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="btnsapphire">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>380</y>
-       <width>93</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color:pink;
-border-radius:15px;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../../../Pictures/Saved Pictures/pngtree-realistic-bright-shiny-sapphire-isolated-png-image_11530158.png</normaloff>../../../Pictures/Saved Pictures/pngtree-realistic-bright-shiny-sapphire-isolated-png-image_11530158.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>60</width>
-       <height>60</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="btnemerald">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>450</y>
-       <width>93</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color:pink;
-border-radius:15px;</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="icon">
-      <iconset>
-       <normaloff>../../../Pictures/Saved Pictures/emerald_400.png</normaloff>../../../Pictures/Saved Pictures/emerald_400.png</iconset>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>60</width>
-       <height>60</height>
-      </size>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="btnProfile">
+    <widget class="QPushButton" name="btnCategory">
      <property name="geometry">
       <rect>
        <x>0</x>
        <y>520</y>
+       <width>93</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;
+border-radius:15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../Downloads/3671792_list_icon.png</normaloff>../../../Downloads/3671792_list_icon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
        <width>93</width>
        <height>71</height>
       </rect>
@@ -2422,6 +2148,9 @@ border-radius:15px;
      </property>
     </widget>
    </widget>
+   <zorder>widget</zorder>
+   <zorder>frame_2</zorder>
+   <zorder>stackedMenu</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
